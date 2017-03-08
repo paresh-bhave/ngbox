@@ -1,0 +1,47 @@
+{
+  "name": "ngbox",
+  "version": "1.0.0",
+  "description": "AngularJS Application with RequireJS as a AMD, GruntJS for build and optimiation tasks, Bower for Package management, Angular Material for material design components and Karma-Jasmine for unit testing.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server -a localhost -p 3000 --cors"
+  },
+  "keywords": [
+    "AngularJS",
+    "Angular-Material",
+    "RequireJS",
+    "GruntJS",
+    "Bower",
+    "Karma",
+    "Jasmine"
+  ],
+  "author": "Paresh Bhave",
+  "license": "ISC",
+  "dependencies": {
+    "bower": "^1.7.9",
+    "grunt": "^1.0.1",
+    "grunt-bower-requirejs": "^2.0.0",
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-cssmin": "^1.0.1",
+    "grunt-contrib-htmlmin": "^2.0.0",
+    "grunt-contrib-less": "^1.4.0",
+    "grunt-contrib-requirejs": "^1.0.0",
+    "grunt-contrib-uglify": "^2.0.0",
+    "http-server": "^0.9.0",
+    "jasmine-core": "^2.5.2",
+    "ng-annotate": "^1.2.1",
+    "rjs-build-analysis": "0.0.3"
+  },
+  "devDependencies": {
+    "karma": "^1.2.0",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-cli": "^1.0.1",
+    "karma-jasmine": "^1.0.2",
+    "karma-phantomjs-launcher": "^1.0.1",
+    "karma-requirejs": "^1.0.0"
+  }
+}

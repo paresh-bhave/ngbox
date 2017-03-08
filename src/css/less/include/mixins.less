@@ -1,0 +1,21 @@
+
+	.get-clamp(@val) {
+		overflow: hidden;
+		display: -webkit-box;
+		-webkit-line-clamp: @val;
+		-webkit-box-orient: vertical; 
+	}
+
+	.get-transition(@val) {
+		-webkit-transition: @val 300ms ease;
+		-moz-transition: @val 300ms ease;
+		-o-transition: @val 300ms ease;
+		transition: @val 300ms ease;
+	}
+
+	.get-shadow(@val){
+		-webkit-text-shadow: @val;
+		-moz-text-shadow: @val;
+		-o-text-shadow: @val;
+		text-shadow: @val;
+	}
