@@ -1,0 +1,1 @@
+!function(){"use strict";define([],function(){function o(o,n,e){o.showProgress=function(){n.show(n.simple().textContent("Loading...").position("bottom left"))},o.hideProgress=function(){n.hide()},this.appName=e.name,this.appVersion=e.version}return o.$inject=["$rootScope","$mdToast","App"],angular.module("ngbox").controller("HeaderController",o)})}();

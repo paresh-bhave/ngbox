@@ -1,0 +1,1 @@
+!function(){"use strict";define([],function(){function t(){this.title="View 1"}return t.$inject=[],t.prototype.getHelloWorld=function(){return"hello "+this.title},t.prototype.sum=function(){this.total=this.number_1+this.number_2},angular.module("view1.module",[]).controller("View1Controller",t)})}();

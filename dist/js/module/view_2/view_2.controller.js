@@ -1,0 +1,1 @@
+!function(){"use strict";define([],function(){function t(){this.title="View 2"}return t.$inject=[],t.prototype.getHelloWorld=function(){return"hello another "+this.title},angular.module("view2.module",[]).controller("View2Controller",t)})}();
