@@ -4,9 +4,9 @@
 	define([
 		"js/app.routes",
 	], function(app) {
-		
-		Config.$inject = ["$mdThemingProvider"];
 
+		Config.$inject = ["$mdThemingProvider"];
+		
 		function Config($mdThemingProvider) {
 			$mdThemingProvider
 				.theme('default')

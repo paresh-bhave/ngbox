@@ -1,0 +1,1 @@
+!function(){function e(e){return t+e+c}function o(e){return{html:r+i+e+"/"+e+m,js:i+e+"/"+e+c}}var n="",r="js/",l="common/",t=l+"controller/",i="module/",c=".controller",m=".view.html";window.NgBox={baseUrl:n,module:{view_1:o("view_1"),view_2:o("view_2")},common:{ctrl:{header:e("header")}}}}();

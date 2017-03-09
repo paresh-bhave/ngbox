@@ -162,8 +162,7 @@ module.exports = function(grunt) {
 			all: {
 				files: [{
 					expand: true,
-					src: ['<%= pkg.src %>js/**/*.js'],
-					dest: '<%= pkg.src %>'
+					src: ['<%= pkg.src %>js/**/*.js']
 				}]
 			},
 		},
