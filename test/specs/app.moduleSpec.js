@@ -9,7 +9,7 @@ define([
         expect(app).toBeDefined();
       }));
 
-      it('name should be CrossOver', inject(function() {
+      it('name should be ngbox', inject(function() {
         expect(app.name).toBe('ngbox');
       }));
 
