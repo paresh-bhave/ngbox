@@ -31,8 +31,8 @@
     "grunt-contrib-less": "^1.4.0",
     "grunt-contrib-requirejs": "^1.0.0",
     "grunt-contrib-uglify": "^2.0.0",
+    "grunt-http-server": "^2.0.0",
     "grunt-ng-annotate": "^3.0.0",
-    "http-server": "^0.9.0",
     "jasmine-core": "^2.5.2",
     "ng-annotate": "^1.2.1",
     "rjs-build-analysis": "0.0.3"

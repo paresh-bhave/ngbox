@@ -9,13 +9,13 @@ require.config({
   deps: tests,
 
   paths: {
-    angular: "../src/libs/angular/angular",
-    "angular-animate": "../src/libs/angular-animate/angular-animate",
-    "angular-aria": "../src/libs/angular-aria/angular-aria",
-    "angular-material": "../src/libs/angular-material/angular-material",
-    "angular-messages": "../src/libs/angular-messages/angular-messages",
-    "angular-mocks": "../src/libs/angular-mocks/angular-mocks",
-    "angular-ui-router": "../src/libs/angular-ui-router/release/angular-ui-router"
+    angular: "../src/js/libs/angular/angular",
+    "angular-animate": "../src/js/libs/angular-animate/angular-animate",
+    "angular-aria": "../src/js/libs/angular-aria/angular-aria",
+    "angular-material": "../src/js/libs/angular-material/angular-material",
+    "angular-messages": "../src/js/libs/angular-messages/angular-messages",
+    "angular-mocks": "../src/js/libs/angular-mocks/angular-mocks",
+    "angular-ui-router": "../src/js/libs/angular-ui-router/release/angular-ui-router"
   },
   shim: {
     "angular": {

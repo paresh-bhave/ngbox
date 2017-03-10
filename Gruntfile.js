@@ -185,6 +185,24 @@ module.exports = function(grunt) {
 					findNestedDependencies: true
 				}
 			}
+		},
+
+		/**
+		 * Grunt Server
+		 */
+		'http-server': {
+			'dev': {
+				root: '<%= pkg.src %>',
+				port: 8090,
+				openBrowser : true,
+				runInBackground: false
+			},
+			'prod': {
+				root: '<%= pkg.dist %>',
+				port: 80,
+				openBrowser : true,
+				runInBackground: false
+			}
 		}
 	});
 
@@ -207,6 +225,11 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks('grunt-ng-annotate');
 
 	grunt.loadNpmTasks('grunt-contrib-requirejs');
+	
+	grunt.loadNpmTasks('grunt-http-server');
+	
+	grunt.registerTask('serve',['http-server:dev']);
+	grunt.registerTask('serve:prod',['http-server:prod']);
 
 	grunt.registerTask('maincss', [
 		'less',

@@ -82,4 +82,5 @@
 		}
 	}
 
+	return window;
 })(); //self
